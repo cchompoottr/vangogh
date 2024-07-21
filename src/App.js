@@ -39,7 +39,7 @@ function App() {
         type="button" 
         className="text-white bg-black hover:bg-gray-800 focus:outline-none rounded-full p-10 text-center inline-flex items-center"
         onClick={() => {
-          const target = document.getElementById('target-section');
+          const target = document.getElementById('target-section1');
           if (target) {
             const viewportHeight = window.innerHeight;
             const targetRect = target.getBoundingClientRect();
@@ -90,7 +90,7 @@ function App() {
               <p className="text-4xl text-neutral-700 leading-loose mt-10 -translate-x-40 w-[700px]">
                 <span className="text-gray-400">Born:</span> 30 March 1853; Zundert, Netherlands<br />
                 <span className="text-gray-400">Died:</span> 29 July 1890; Auvers-sur-Oise, France<br />
-                <span id="target-section" className="text-gray-400">Nationality:</span> Spanish<br />
+                <span id="target-section1" className="text-gray-400">Nationality:</span> Spanish<br />
                 <span className="text-gray-400">Art Movement:</span> Dutch<br />
                 <span className="text-gray-400">Field:</span> Painting<br />
               </p>
@@ -99,7 +99,9 @@ function App() {
                 type="button"
                 className="inline-block rounded border-t-8 border-l-8 border-neutral-800 p-12 pt-6 pb-6 text-3xl font-bold uppercase leading-normal text-neutral-800 transition duration-150 ease-in-out hover:border-neutral-800 hover:bg-neutral-100 hover:text-neutral-800 focus:border-neutral-800 focus:bg-neutral-100 focus:text-neutral-800 focus:outline-none focus:ring-0 active:border-neutral-900 active:text-neutral-900 motion-reduce:transition-none dark:text-neutral-600 dark:hover:bg-neutral-900 dark:focus:bg-neutral-900 custom-button"
                 style={{ borderRightWidth: '12px', borderBottomWidth: '12px' }}
-                data-twe-ripple-init>
+                data-twe-ripple-init
+                onClick={() => document.getElementById('target-section2').scrollIntoView({ behavior: 'smooth' })}
+                >
                 More Details
               </button>
             </div>
@@ -137,6 +139,8 @@ function App() {
           
           </div>
         </div>
+
+        <div id="target-section2" className="container w-auto h-[40rem]"></div>
 
       </body>
   
