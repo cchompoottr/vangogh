@@ -114,6 +114,23 @@ function App() {
             <h1 className='absolute text-[17rem] font-bold text-gray-300 mix-blend-multiply opacity-50 -translate-y-60'>WORKS</h1>
         </div>
 
+        <div className="flex flex-row mb-20 pb-20">
+          <div className="basis-1/2 relative h-full ml-20 pl-20 -translate-x-70">
+          
+            <img src="../post-impressionism/p1.png" alt="Background" className="w-auto h-[450px] object-cover absolute inset-0 z-20 p1"/>
+            <img src="../post-impressionism/p2.png" alt="Background" className="w-[600px] h-[400px] object-cover absolute inset-0 z-30 p2"/>
+            <img src="../post-impressionism/p3.png" alt="Background" className="w-auto h-[550px] object-cover absolute inset-0 z-40 p3"/>
+            <img src="../post-impressionism/p4.png" alt="Background" className="w-[900px] h-[500px] object-cover absolute inset-0 z-10 p4"/>
+
+            <div className="layer text-6xl font-bold text-white uppercase z-50 text-center border-double border-4 border-white p-20">post<br></br>impressionism</div>
+
+          </div>
+
+          <div className="basis-1/2">
+          
+          </div>
+        </div>
+
       </header>
 
   

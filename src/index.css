@@ -60,7 +60,7 @@
     transform: translateY(0);
   }
   to {
-    transform: translateY(-10px);
+    transform: translateY(-50px);
   }
 }
 
@@ -84,3 +84,30 @@
   margin-top: 700px;
 }
 
+.p1 {
+  transform: translateX(25rem);
+  margin-top: 20px;
+}
+
+.p4 {
+  transform: translateX(50px);
+  margin-top: 70px;
+}
+
+.p3 {
+  transform: translateX(55rem);
+  margin-top: 170px;
+}
+
+.p2 {
+  transform: translateX(20rem);
+  margin-top: 350px;
+}
+
+.layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 250px;
+  margin-left: -350px;
+}
