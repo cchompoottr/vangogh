@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alatsi&family=Outfit:wght@100..900&family=Shippori+Antique&family=Shippori+Antique+B1&display=swap');
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+.bg {
+  background: linear-gradient(to left, white 50%, #fa7c02 50%);
+  height: 120vh;
+}
+
+.title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  margin-left: 11%;
+  margin-top: 12%;
+  margin-bottom: -100px;
+
+}
+
+
+.mask1 {
+  background: url('../public/vangogh/va.png') no-repeat center center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  color: transparent;
+  font-size: 25rem; 
+  font-weight: 900;
+}
+
+.mask2 {
+  background: url('../public/vangogh/ngo.png') no-repeat center center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  color: transparent;
+  font-size: 25rem; 
+  font-weight: 900;
+}
+
+.mask3 {
+  background: url('../public/vangogh/gh.png') no-repeat center center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  color: transparent;
+  font-size: 25rem; 
+  font-weight: 900;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50px);
+  }
+}
+
+.hover\:slide-up:hover {
+  animation: slideUp 0.5s forwards;
+}
+
+.custom-border {
+  border-right-width: 15px;
+  border-bottom-width: 15px;
+}
+
+
+.custom-button {
+  margin-top: 80px;
+  margin-left: -150px;
+ 
+}
+
