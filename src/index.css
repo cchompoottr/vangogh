@@ -9,7 +9,7 @@
 
 .bg {
   background: linear-gradient(to left, white 50%, #fa7c02 50%);
-  height: 120vh;
+  height: 100vh;
 }
 
 .title {
@@ -60,7 +60,7 @@
     transform: translateY(0);
   }
   to {
-    transform: translateY(-50px);
+    transform: translateY(-10px);
   }
 }
 
@@ -78,5 +78,9 @@
   margin-top: 80px;
   margin-left: -150px;
  
+}
+
+.between-space {
+  margin-top: 700px;
 }
 
