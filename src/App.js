@@ -4,7 +4,7 @@ import './index.css';
 function App() {
   return (
     <div className="App">
-      <header className="bg text-white">
+      <body className="bg text-white pb-96">
 
         <nav className='h-[5rem] flex items-center justify-between w-[90%] mx-auto pt-10'>
           <div>
@@ -90,8 +90,8 @@ function App() {
               <p className="text-4xl text-neutral-700 leading-loose mt-10 -translate-x-40 w-[700px]">
                 <span className="text-gray-400">Born:</span> 30 March 1853; Zundert, Netherlands<br />
                 <span className="text-gray-400">Died:</span> 29 July 1890; Auvers-sur-Oise, France<br />
-                <span id="target-section" className="text-gray-400">Nationality:</span> Dutch<br />
-                <span className="text-gray-400">Art Movement:</span> Post-Impressionism<br />
+                <span id="target-section" className="text-gray-400">Nationality:</span> Spanish<br />
+                <span className="text-gray-400">Art Movement:</span> Dutch<br />
                 <span className="text-gray-400">Field:</span> Painting<br />
               </p>
 
@@ -114,7 +114,7 @@ function App() {
             <h1 className='absolute text-[17rem] font-bold text-gray-300 mix-blend-multiply opacity-50 -translate-y-60'>WORKS</h1>
         </div>
 
-        <div className="flex flex-row mb-20 pb-20">
+        <div className="flex flex-row mb-20 pb-96">
           <div className="basis-1/2 relative h-full ml-20 pl-20 -translate-x-70">
           
             <img src="../post-impressionism/p1.png" alt="Background" className="w-auto h-[450px] object-cover absolute inset-0 z-20 p1"/>
@@ -122,17 +122,23 @@ function App() {
             <img src="../post-impressionism/p3.png" alt="Background" className="w-auto h-[550px] object-cover absolute inset-0 z-40 p3"/>
             <img src="../post-impressionism/p4.png" alt="Background" className="w-[900px] h-[500px] object-cover absolute inset-0 z-10 p4"/>
 
-            <div className="layer text-6xl font-bold text-white uppercase z-50 text-center border-double border-4 border-white p-20">post<br></br>impressionism</div>
+            <div className="post-layer text-6xl font-bold text-white uppercase z-50 text-center border-double border-4 border-white p-20 border-opacity-50">post<br></br>impressionism</div>
 
           </div>
 
-          <div className="basis-1/2">
+          <div className="basis-1/2 relative h-full mr-20 pr-20 -translate-x-70">
+
+            <img src="../realism/r1.png" alt="Background" className="w-auto h-[500px] object-cover absolute inset-0 z-10 r1"/>
+            <img src="../realism/r2.png" alt="Background" className="w-[700px] h-[450px] object-cover absolute inset-0 z-20 r2"/>
+            <img src="../realism/r3.png" alt="Background" className="w-auto h-[350px] object-cover absolute inset-0 z-30 r3"/>
+            <img src="../realism/r4.png" alt="Background" className="w-[300px] h-[400px] object-cover absolute inset-0 z-40 r4"/>
+
+            <div className="real-layer text-7xl font-bold text-white uppercase z-50 text-center border-double border-4 border-white border-opacity-50">realism</div>
           
           </div>
         </div>
 
-      </header>
-
+      </body>
   
     </div>
   );

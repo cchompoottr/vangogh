@@ -7,6 +7,10 @@
   font-family: "Outfit", sans-serif;
 }
 
+.body {
+  
+}
+
 .bg {
   background: linear-gradient(to left, white 50%, #fa7c02 50%);
   height: 100vh;
@@ -95,7 +99,7 @@
 }
 
 .p3 {
-  transform: translateX(55rem);
+  transform: translateX(53rem);
   margin-top: 170px;
 }
 
@@ -104,10 +108,39 @@
   margin-top: 350px;
 }
 
-.layer {
+.post-layer {
   position: absolute;
   top: 50%;
   left: 50%;
   margin-top: 250px;
   margin-left: -350px;
+}
+
+.r1 {
+  transform: translateX(15rem);
+  margin-top: 15px;
+}
+
+.r2 {
+  transform: translateX(35rem);
+  margin-top: 60px;
+}
+
+.r3 {
+  transform: translateX(18rem);
+  margin-top: 425px;
+}
+
+.r4 {
+  transform: translateX(50rem);
+  margin-top: 400px;
+}
+
+.real-layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 250px;
+  margin-left: -180px;
+  padding: 110px;
 }
